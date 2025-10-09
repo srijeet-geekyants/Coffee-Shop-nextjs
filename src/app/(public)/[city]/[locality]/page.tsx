@@ -42,7 +42,6 @@ type LocalityPageProps = {
     city: string;
     locality: string;
   };
-  searchParams: { [key: string]: string | string[] | undefined };
 };
 
 export default async function LocalityPage({ params }: LocalityPageProps) {
