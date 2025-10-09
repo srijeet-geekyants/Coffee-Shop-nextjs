@@ -14,7 +14,20 @@ const nextConfig: NextConfig = {
   serverExternalPackages: ["import-in-the-middle", "require-in-the-middle"], // posthog config
   images: {
     formats: ["image/avif", "image/webp"],
-    remotePatterns: [],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "b.zmtcdn.com",
+        port: "",
+        pathname: "/**",
+      },
+    ],
   },
   async rewrites() {
     return [
