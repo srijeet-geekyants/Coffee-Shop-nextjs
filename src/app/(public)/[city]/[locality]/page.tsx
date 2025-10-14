@@ -38,10 +38,12 @@ const mockRestaurants = [
 ];
 
 type LocalityPageProps = {
-  params: {
-    city: string;
-    locality: string;
-  };
+  params: LocalityProps
+};
+
+type LocalityProps = {
+  city: string;
+  locality: string;
 };
 
 export default async function LocalityPage({ params }: LocalityPageProps) {
@@ -51,7 +53,7 @@ export default async function LocalityPage({ params }: LocalityPageProps) {
   const locality = decodeURIComponent(receivedParams.locality);
   const capitalizedLocality = locality.charAt(0).toUpperCase() + locality.slice(1);
 
-  return (
+  return (  
     <>
       <Header />
       <main className="container mx-auto py-8">
@@ -77,7 +79,7 @@ export default async function LocalityPage({ params }: LocalityPageProps) {
 
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {mockRestaurants.map((restaurant, index) => (
-            <RestaurantCard key={index} restaurant={restaurant} />
+            <RestaurantCard key={index} restaurant={restaurant} index={index} />
           ))}
         </div>
       </main>

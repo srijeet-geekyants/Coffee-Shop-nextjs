@@ -1,4 +1,3 @@
-import Header from "@/components/layouts/header";
 import {
   Card,
   CardHeader,
@@ -24,7 +23,6 @@ const cities = [
 export default function HomePage() {
   return (
     <div className="relative">
-      <Header />
       <main className="w-full">
         <section
           className="relative flex h-[60dvh] flex-col items-center justify-center"
@@ -69,6 +67,7 @@ export default function HomePage() {
             </h2>
             <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
               {cities.map((city) => (
+                // '/bengaluru/hsr'
                 <Link href={city.path as Route} key={city.name} passHref>
                   <Card className="cursor-pointer transition-transform duration-200 hover:scale-105">
                     <CardHeader>
