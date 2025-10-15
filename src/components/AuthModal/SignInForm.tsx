@@ -15,7 +15,7 @@ export const SignInForm: React.FC<SignInFormProps> = ({ switchView, closeModal }
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         // Here you would typically send the email and password to your authentication API
-        console.log('Signing In with:', { email, password });
+        //console.log('Signing In with:', { email, password });
         // After successful login, close the modal
         closeModal();
         // In a real app, you'd handle loading states, errors, and actual user session management

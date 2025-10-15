@@ -27,7 +27,7 @@ export const SignUpForm: React.FC<SignUpFormProps> = ({ switchView, closeModal }
             return;
         }
         // Here you would typically send the registration data to your API
-        console.log('Signing Up with:', { name, email, password });
+        //console.log('Signing Up with:', { name, email, password });
         // After successful registration, close the modal (or navigate to a dashboard)
         closeModal();
         // In a real app, handle loading, errors, and actual user session management

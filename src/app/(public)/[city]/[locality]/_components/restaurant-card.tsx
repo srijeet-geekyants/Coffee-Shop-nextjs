@@ -4,10 +4,15 @@ import Image from "next/image";
 
 type RestaurantCardProps = {
   restaurant: {
+    id: string;
     name: string;
-    imageUrl: string;
-    cuisine: string;
+    city_path: string;
+    locality_path: string,
+    img_path: string;
+    min_order: number;
     rating: number;
+    cuisine: Array<string>;
+    is_open: boolean;
   };
   index:number
 };
@@ -16,7 +21,7 @@ export default function RestaurantCard({ restaurant,index }: RestaurantCardProps
   return (
     <Card className="overflow-hidden transition-transform duration-200 hover:scale-105">
       <Image
-        src={restaurant.imageUrl}
+        src={restaurant.img_path}
         alt={restaurant.name}
         width={400}
         height={200}

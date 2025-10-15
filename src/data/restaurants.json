@@ -3,30 +3,42 @@
     "id": "r001",
     "name": "Spice Route Kitchen",
     "city_path": "/bengaluru",
-    "locality_path": "/bengaluru/koramangala-5th-block",
+    "locality_path": "/bengaluru/koramangala",
+    "img_path": "/images/bengaluru/momos.png",
     "min_order": 150,
     "rating": 4.5,
-    "categories": ["/indian", "/biryani"],
+    "cuisine": [
+      "/indian",
+      "/biryani"
+    ],
     "is_open": true
   },
   {
     "id": "r002",
     "name": "Pizza Planet Express",
     "city_path": "/bengaluru",
-    "locality_path": "/bengaluru/koramangala-5th-block",
+    "locality_path": "/bengaluru/koramangala",
+    "img_path": "/images/bengaluru/momos.png",
     "min_order": 200,
     "rating": 4.1,
-    "categories": ["/italian", "/pizza"],
+    "cuisine": [
+      "/italian",
+      "/pizza"
+    ],
     "is_open": true
   },
   {
     "id": "r003",
     "name": "Momos Mania",
     "city_path": "/bengaluru",
-    "locality_path": "/bengaluru/koramangala-5th-block",
+    "locality_path": "/bengaluru/koramangala",
+    "img_path": "/images/bengaluru/biriyani.png",
     "min_order": 100,
     "rating": 3.9,
-    "categories": ["/chinese", "/street-food"],
+    "cuisine": [
+      "/chinese",
+      "/street-food"
+    ],
     "is_open": false
   },
   {
@@ -34,9 +46,13 @@
     "name": "The Salad Bar",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/indiranagar",
+    "img_path": "/images/bengaluru/grill.png",
     "min_order": 250,
     "rating": 4.7,
-    "categories": ["/healthy", "/salad"],
+    "cuisine": [
+      "/healthy",
+      "/salad"
+    ],
     "is_open": true
   },
   {
@@ -44,9 +60,13 @@
     "name": "Chaat Central",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/indiranagar",
+    "img_path": "/images/bengaluru/biriyani-2.png",
     "min_order": 80,
     "rating": 4.4,
-    "categories": ["/indian", "/street-food"],
+    "cuisine": [
+      "/indian",
+      "/street-food"
+    ],
     "is_open": true
   },
   {
@@ -54,9 +74,13 @@
     "name": "Waffle Street",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/indiranagar",
+    "img_path": "/images/bengaluru/biriyani-2.png",
     "min_order": 180,
     "rating": 4.2,
-    "categories": ["/desserts", "/snacks"],
+    "cuisine": [
+      "/desserts",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -64,9 +88,13 @@
     "name": "Curry Kingdom",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/whitefield",
+    "img_path": "/images/bengaluru/pizza.png",
     "min_order": 220,
     "rating": 4.0,
-    "categories": ["/indian", "/south-indian"],
+    "cuisine": [
+      "/indian",
+      "/south-indian"
+    ],
     "is_open": true
   },
   {
@@ -74,9 +102,13 @@
     "name": "Whitefield Grill",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/whitefield",
+    "img_path": "/images/bengaluru/biriyani-2.png",
     "min_order": 300,
     "rating": 4.6,
-    "categories": ["/continental", "/fast-food"],
+    "cuisine": [
+      "/continental",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -84,9 +116,13 @@
     "name": "Biryani Bliss",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/electronic-city",
+    "img_path": "/images/bengaluru/momos.png",
     "min_order": 210,
     "rating": 4.3,
-    "categories": ["/indian", "/biryani"],
+    "cuisine": [
+      "/indian",
+      "/biryani"
+    ],
     "is_open": true
   },
   {
@@ -94,9 +130,13 @@
     "name": "Tech Cafe",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/electronic-city",
+    "img_path": "/images/bengaluru/salad.png",
     "min_order": 120,
     "rating": 3.8,
-    "categories": ["/beverages", "/snacks"],
+    "cuisine": [
+      "/beverages",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -104,9 +144,13 @@
     "name": "Jayanagar Thali House",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/jayanagar",
+    "img_path": "/images/bengaluru/curry.png",
     "min_order": 190,
     "rating": 4.5,
-    "categories": ["/indian", "/south-indian"],
+    "cuisine": [
+      "/indian",
+      "/south-indian"
+    ],
     "is_open": true
   },
   {
@@ -114,9 +158,13 @@
     "name": "Burger Bar BTM",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/btm-layout",
+    "img_path": "/images/bengaluru/salad.png",
     "min_order": 230,
     "rating": 4.1,
-    "categories": ["/fast-food", "/burger"],
+    "cuisine": [
+      "/fast-food",
+      "/burger"
+    ],
     "is_open": true
   },
   {
@@ -124,9 +172,13 @@
     "name": "HSR Healthy Bowls",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/hsr-layout",
+    "img_path": "/images/bengaluru/grill.png",
     "min_order": 280,
     "rating": 4.6,
-    "categories": ["/healthy", "/salad"],
+    "cuisine": [
+      "/healthy",
+      "/salad"
+    ],
     "is_open": true
   },
   {
@@ -134,9 +186,14 @@
     "name": "Malleshwaram Mithai",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/malleshwaram",
+    "img_path": "/images/bengaluru/chaat.png",
     "min_order": 90,
     "rating": 4.7,
-    "categories": ["/desserts", "/indian", "/street-food"],
+    "cuisine": [
+      "/desserts",
+      "/indian",
+      "/street-food"
+    ],
     "is_open": true
   },
   {
@@ -144,9 +201,13 @@
     "name": "Sarjapur Sweets",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/sarjapur-road",
+    "img_path": "/images/bengaluru/biriyani.png",
     "min_order": 110,
     "rating": 4.0,
-    "categories": ["/desserts", "/snacks"],
+    "cuisine": [
+      "/desserts",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -154,9 +215,13 @@
     "name": "Marathahalli Meals",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/marathahalli",
+    "img_path": "/images/bengaluru/curry.png",
     "min_order": 160,
     "rating": 3.7,
-    "categories": ["/indian", "/fast-food"],
+    "cuisine": [
+      "/indian",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -164,9 +229,13 @@
     "name": "Mumbaikar Cafe",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/bandra-west",
+    "img_path": "/images/mumbai/waffle.png",
     "min_order": 200,
     "rating": 4.5,
-    "categories": ["/indian", "/snacks"],
+    "cuisine": [
+      "/indian",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -174,9 +243,13 @@
     "name": "Bandra Bites",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/bandra-west",
+    "img_path": "/images/mumbai/biriyani-2.png",
     "min_order": 300,
     "rating": 4.8,
-    "categories": ["/continental", "/healthy"],
+    "cuisine": [
+      "/continental",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -184,9 +257,13 @@
     "name": "Andheri Noodles House",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/andheri-east",
+    "img_path": "/images/mumbai/pizza.png",
     "min_order": 240,
     "rating": 4.2,
-    "categories": ["/chinese", "/noodles"],
+    "cuisine": [
+      "/chinese",
+      "/noodles"
+    ],
     "is_open": true
   },
   {
@@ -194,9 +271,12 @@
     "name": "Local Spice Joint",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/andheri-east",
+    "img_path": "/images/mumbai/biriyani.png",
     "min_order": 180,
     "rating": 3.9,
-    "categories": ["/indian"],
+    "cuisine": [
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -204,9 +284,13 @@
     "name": "Parel Pasta",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/lower-parel",
+    "img_path": "/images/mumbai/chaat.png",
     "min_order": 350,
     "rating": 4.6,
-    "categories": ["/italian", "/continental"],
+    "cuisine": [
+      "/italian",
+      "/continental"
+    ],
     "is_open": true
   },
   {
@@ -214,9 +298,13 @@
     "name": "Worli Waterfront Grill",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/worli",
+    "img_path": "/images/mumbai/chaat.png",
     "min_order": 400,
     "rating": 4.9,
-    "categories": ["/continental", "/fast-food"],
+    "cuisine": [
+      "/continental",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -224,9 +312,13 @@
     "name": "Malad Munchies",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/malad-west",
+    "img_path": "/images/mumbai/momos.png",
     "min_order": 130,
     "rating": 3.5,
-    "categories": ["/street-food", "/snacks"],
+    "cuisine": [
+      "/street-food",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -234,9 +326,13 @@
     "name": "Powai Pizzeria",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/powai",
+    "img_path": "/images/mumbai/curry.png",
     "min_order": 280,
     "rating": 4.3,
-    "categories": ["/italian", "/pizza"],
+    "cuisine": [
+      "/italian",
+      "/pizza"
+    ],
     "is_open": true
   },
   {
@@ -244,9 +340,13 @@
     "name": "Juhu Jumbo Burgers",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/juhu",
+    "img_path": "/images/mumbai/grill.png",
     "min_order": 220,
     "rating": 4.1,
-    "categories": ["/fast-food", "/burger"],
+    "cuisine": [
+      "/fast-food",
+      "/burger"
+    ],
     "is_open": true
   },
   {
@@ -254,9 +354,12 @@
     "name": "Colaba Curry House",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/colaba",
+    "img_path": "/images/mumbai/biriyani.png",
     "min_order": 380,
     "rating": 4.7,
-    "categories": ["/indian"],
+    "cuisine": [
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -264,9 +367,13 @@
     "name": "Vashi Veggie Delights",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/vashi-navi-mumbai",
+    "img_path": "/images/mumbai/pizza.png",
     "min_order": 190,
     "rating": 4.0,
-    "categories": ["/south-indian", "/indian"],
+    "cuisine": [
+      "/south-indian",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -274,9 +381,13 @@
     "name": "Thane Tandoor",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/thane-west",
+    "img_path": "/images/mumbai/grill.png",
     "min_order": 260,
     "rating": 4.4,
-    "categories": ["/indian", "/kebab"],
+    "cuisine": [
+      "/indian",
+      "/kebab"
+    ],
     "is_open": true
   },
   {
@@ -284,9 +395,13 @@
     "name": "Delhi Darbar",
     "city_path": "/delhi",
     "locality_path": "/delhi/connaught-place",
+    "img_path": "/images/delhi/grill.png",
     "min_order": 450,
     "rating": 4.8,
-    "categories": ["/indian", "/continental"],
+    "cuisine": [
+      "/indian",
+      "/continental"
+    ],
     "is_open": true
   },
   {
@@ -294,9 +409,13 @@
     "name": "CP Cafe Lounge",
     "city_path": "/delhi",
     "locality_path": "/delhi/connaught-place",
+    "img_path": "/images/delhi/biriyani.png",
     "min_order": 250,
     "rating": 4.3,
-    "categories": ["/beverages", "/snacks"],
+    "cuisine": [
+      "/beverages",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -304,9 +423,13 @@
     "name": "GK Grooves",
     "city_path": "/delhi",
     "locality_path": "/delhi/greater-kailash-1",
+    "img_path": "/images/delhi/salad.png",
     "min_order": 300,
     "rating": 4.6,
-    "categories": ["/italian", "/healthy"],
+    "cuisine": [
+      "/italian",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -314,9 +437,13 @@
     "name": "Hauz Khas Hideout",
     "city_path": "/delhi",
     "locality_path": "/delhi/hauz-khas",
+    "img_path": "/images/delhi/curry.png",
     "min_order": 380,
     "rating": 4.7,
-    "categories": ["/chinese", "/desserts"],
+    "cuisine": [
+      "/chinese",
+      "/desserts"
+    ],
     "is_open": true
   },
   {
@@ -324,9 +451,13 @@
     "name": "Dwarka Dosa Centre",
     "city_path": "/delhi",
     "locality_path": "/delhi/dwarka-sector-7",
+    "img_path": "/images/delhi/salad.png",
     "min_order": 110,
     "rating": 4.0,
-    "categories": ["/south-indian", "/indian"],
+    "cuisine": [
+      "/south-indian",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -334,9 +465,13 @@
     "name": "Karol Bagh Kebab",
     "city_path": "/delhi",
     "locality_path": "/delhi/karol-bagh",
+    "img_path": "/images/delhi/biriyani-2.png",
     "min_order": 220,
     "rating": 4.1,
-    "categories": ["/indian", "/kebab"],
+    "cuisine": [
+      "/indian",
+      "/kebab"
+    ],
     "is_open": true
   },
   {
@@ -344,9 +479,13 @@
     "name": "Saket Sizzlers",
     "city_path": "/delhi",
     "locality_path": "/delhi/saket",
+    "img_path": "/images/delhi/salad.png",
     "min_order": 420,
     "rating": 4.5,
-    "categories": ["/continental", "/fast-food"],
+    "cuisine": [
+      "/continental",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -354,9 +493,13 @@
     "name": "Vasant Vihar Vegan",
     "city_path": "/delhi",
     "locality_path": "/delhi/vasant-vihar",
+    "img_path": "/images/delhi/pizza.png",
     "min_order": 310,
     "rating": 4.4,
-    "categories": ["/healthy", "/salad"],
+    "cuisine": [
+      "/healthy",
+      "/salad"
+    ],
     "is_open": true
   },
   {
@@ -364,9 +507,13 @@
     "name": "Chandni Chowk Chaat Corner",
     "city_path": "/delhi",
     "locality_path": "/delhi/chandni-chowk",
+    "img_path": "/images/delhi/biriyani-2.png",
     "min_order": 70,
     "rating": 4.8,
-    "categories": ["/street-food", "/snacks"],
+    "cuisine": [
+      "/street-food",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -374,9 +521,13 @@
     "name": "Pitampura Pizza Point",
     "city_path": "/delhi",
     "locality_path": "/delhi/pitampura",
+    "img_path": "/images/delhi/grill.png",
     "min_order": 280,
     "rating": 4.0,
-    "categories": ["/italian", "/pizza"],
+    "cuisine": [
+      "/italian",
+      "/pizza"
+    ],
     "is_open": true
   },
   {
@@ -384,9 +535,13 @@
     "name": "Rohini Rolls",
     "city_path": "/delhi",
     "locality_path": "/delhi/rohini-sector-11",
+    "img_path": "/images/delhi/momos.png",
     "min_order": 150,
     "rating": 3.7,
-    "categories": ["/rolls-wraps", "/street-food"],
+    "cuisine": [
+      "/rolls-wraps",
+      "/street-food"
+    ],
     "is_open": true
   },
   {
@@ -394,9 +549,13 @@
     "name": "Noida Noodle House",
     "city_path": "/delhi",
     "locality_path": "/delhi/noida-sector-18",
+    "img_path": "/images/delhi/pizza.png",
     "min_order": 270,
     "rating": 4.3,
-    "categories": ["/chinese", "/noodles"],
+    "cuisine": [
+      "/chinese",
+      "/noodles"
+    ],
     "is_open": true
   },
   {
@@ -404,9 +563,13 @@
     "name": "Gurugram Grub",
     "city_path": "/delhi",
     "locality_path": "/delhi/dlf-cybercity-gurugram",
+    "img_path": "/images/delhi/biriyani.png",
     "min_order": 330,
     "rating": 4.5,
-    "categories": ["/continental", "/fast-food"],
+    "cuisine": [
+      "/continental",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -414,9 +577,14 @@
     "name": "Salt Lake Sweets",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/salt-lake-city-sector-5",
+    "img_path": "/images/kolkata/biriyani-2.png",
     "min_order": 100,
     "rating": 4.7,
-    "categories": ["/desserts", "/indian", "/snacks"],
+    "cuisine": [
+      "/desserts",
+      "/indian",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -424,9 +592,13 @@
     "name": "Rajarhat Rolls",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/rajarhat",
+    "img_path": "/images/kolkata/salad.png",
     "min_order": 140,
     "rating": 4.1,
-    "categories": ["/rolls-wraps", "/street-food"],
+    "cuisine": [
+      "/rolls-wraps",
+      "/street-food"
+    ],
     "is_open": true
   },
   {
@@ -434,9 +606,13 @@
     "name": "Ballygunge Biryani",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/ballygunge",
+    "img_path": "/images/kolkata/momos.png",
     "min_order": 290,
     "rating": 4.4,
-    "categories": ["/indian", "/biryani"],
+    "cuisine": [
+      "/indian",
+      "/biryani"
+    ],
     "is_open": true
   },
   {
@@ -444,9 +620,13 @@
     "name": "Park Street Pub Grub",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/park-street",
+    "img_path": "/images/kolkata/waffle.png",
     "min_order": 380,
     "rating": 4.8,
-    "categories": ["/continental", "/fast-food"],
+    "cuisine": [
+      "/continental",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -454,9 +634,13 @@
     "name": "New Town Treats",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/new-town",
+    "img_path": "/images/kolkata/pizza.png",
     "min_order": 160,
     "rating": 3.9,
-    "categories": ["/snacks", "/desserts"],
+    "cuisine": [
+      "/snacks",
+      "/desserts"
+    ],
     "is_open": true
   },
   {
@@ -464,9 +648,12 @@
     "name": "Alipore Authentic Indian",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/alipore",
+    "img_path": "/images/kolkata/pizza.png",
     "min_order": 320,
     "rating": 4.6,
-    "categories": ["/indian"],
+    "cuisine": [
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -474,9 +661,13 @@
     "name": "Gariahat Grill",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/gariahat",
+    "img_path": "/images/kolkata/salad.png",
     "min_order": 270,
     "rating": 4.2,
-    "categories": ["/kebab", "/indian"],
+    "cuisine": [
+      "/kebab",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -484,9 +675,13 @@
     "name": "Jadavpur Jollof",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/jadavpur",
+    "img_path": "/images/kolkata/biriyani.png",
     "min_order": 200,
     "rating": 3.5,
-    "categories": ["/african", "/fusion"],
+    "cuisine": [
+      "/african",
+      "/fusion"
+    ],
     "is_open": false
   },
   {
@@ -494,9 +689,13 @@
     "name": "Esplanade Eats",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/esplanade",
+    "img_path": "/images/kolkata/biriyani-2.png",
     "min_order": 180,
     "rating": 4.0,
-    "categories": ["/street-food", "/snacks"],
+    "cuisine": [
+      "/street-food",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -504,19 +703,27 @@
     "name": "Tollygunge Takeout",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/tollygunge",
+    "img_path": "/images/kolkata/grill.png",
     "min_order": 230,
     "rating": 4.3,
-    "categories": ["/chinese", "/indian"],
+    "cuisine": [
+      "/chinese",
+      "/indian"
+    ],
     "is_open": true
   },
   {
     "id": "r052",
     "name": "Koramangala Kitchen",
     "city_path": "/bengaluru",
-    "locality_path": "/bengaluru/koramangala-5th-block",
+    "locality_path": "/bengaluru/koramangala",
+    "img_path": "/images/bengaluru/salad.png",
     "min_order": 250,
     "rating": 4.6,
-    "categories": ["/continental", "/healthy"],
+    "cuisine": [
+      "/continental",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -524,9 +731,12 @@
     "name": "Indiranagar Idli",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/indiranagar",
+    "img_path": "/images/bengaluru/grill.png",
     "min_order": 90,
     "rating": 4.2,
-    "categories": ["/south-indian"],
+    "cuisine": [
+      "/south-indian"
+    ],
     "is_open": true
   },
   {
@@ -534,9 +744,13 @@
     "name": "Whitefield Wok",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/whitefield",
+    "img_path": "/images/bengaluru/grill.png",
     "min_order": 280,
     "rating": 4.4,
-    "categories": ["/chinese", "/noodles"],
+    "cuisine": [
+      "/chinese",
+      "/noodles"
+    ],
     "is_open": true
   },
   {
@@ -544,9 +758,13 @@
     "name": "Electronic City Eggs",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/electronic-city",
+    "img_path": "/images/bengaluru/momos.png",
     "min_order": 140,
     "rating": 3.6,
-    "categories": ["/fast-food", "/indian"],
+    "cuisine": [
+      "/fast-food",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -554,9 +772,13 @@
     "name": "Jayanagar Juices",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/jayanagar",
+    "img_path": "/images/bengaluru/curry.png",
     "min_order": 60,
     "rating": 4.0,
-    "categories": ["/beverages", "/healthy"],
+    "cuisine": [
+      "/beverages",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -564,9 +786,13 @@
     "name": "HSR Bakery",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/hsr-layout",
+    "img_path": "/images/bengaluru/momos.png",
     "min_order": 110,
     "rating": 4.1,
-    "categories": ["/desserts", "/snacks"],
+    "cuisine": [
+      "/desserts",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -574,9 +800,12 @@
     "name": "Malleshwaram Meals",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/malleshwaram",
+    "img_path": "/images/bengaluru/biriyani.png",
     "min_order": 170,
     "rating": 3.8,
-    "categories": ["/indian"],
+    "cuisine": [
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -584,9 +813,14 @@
     "name": "Sarjapur Sweets & Savouries",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/sarjapur-road",
+    "img_path": "/images/bengaluru/grill.png",
     "min_order": 120,
     "rating": 4.5,
-    "categories": ["/desserts", "/snacks", "/indian"],
+    "cuisine": [
+      "/desserts",
+      "/snacks",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -594,9 +828,13 @@
     "name": "Marathahalli Momo Corner",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/marathahalli",
+    "img_path": "/images/bengaluru/salad.png",
     "min_order": 130,
     "rating": 4.0,
-    "categories": ["/chinese", "/street-food"],
+    "cuisine": [
+      "/chinese",
+      "/street-food"
+    ],
     "is_open": true
   },
   {
@@ -604,9 +842,13 @@
     "name": "Bandra Brunch Spot",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/bandra-west",
+    "img_path": "/images/mumbai/curry.png",
     "min_order": 300,
     "rating": 4.7,
-    "categories": ["/continental", "/healthy"],
+    "cuisine": [
+      "/continental",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -614,9 +856,13 @@
     "name": "Andheri Aroma",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/andheri-east",
+    "img_path": "/images/mumbai/chaat.png",
     "min_order": 210,
     "rating": 4.0,
-    "categories": ["/indian", "/south-indian"],
+    "cuisine": [
+      "/indian",
+      "/south-indian"
+    ],
     "is_open": true
   },
   {
@@ -624,9 +870,13 @@
     "name": "Lower Parel Lunch Box",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/lower-parel",
+    "img_path": "/images/mumbai/biriyani-2.png",
     "min_order": 270,
     "rating": 4.3,
-    "categories": ["/indian", "/fast-food"],
+    "cuisine": [
+      "/indian",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -634,9 +884,13 @@
     "name": "Worli Waffles",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/worli",
+    "img_path": "/images/mumbai/grill.png",
     "min_order": 180,
     "rating": 4.1,
-    "categories": ["/desserts", "/snacks"],
+    "cuisine": [
+      "/desserts",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -644,9 +898,13 @@
     "name": "Malad Chinese",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/malad-west",
+    "img_path": "/images/mumbai/momos.png",
     "min_order": 230,
     "rating": 3.8,
-    "categories": ["/chinese", "/noodles"],
+    "cuisine": [
+      "/chinese",
+      "/noodles"
+    ],
     "is_open": true
   },
   {
@@ -654,9 +912,13 @@
     "name": "Powai Indian Grill",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/powai",
+    "img_path": "/images/mumbai/pizza.png",
     "min_order": 320,
     "rating": 4.5,
-    "categories": ["/indian", "/kebab"],
+    "cuisine": [
+      "/indian",
+      "/kebab"
+    ],
     "is_open": true
   },
   {
@@ -664,9 +926,14 @@
     "name": "Juhu Jalebi & Fafda",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/juhu",
+    "img_path": "/images/mumbai/curry.png",
     "min_order": 80,
     "rating": 4.6,
-    "categories": ["/street-food", "/desserts", "/indian"],
+    "cuisine": [
+      "/street-food",
+      "/desserts",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -674,9 +941,13 @@
     "name": "Colaba Cafe",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/colaba",
+    "img_path": "/images/mumbai/biriyani.png",
     "min_order": 380,
     "rating": 4.9,
-    "categories": ["/continental", "/beverages"],
+    "cuisine": [
+      "/continental",
+      "/beverages"
+    ],
     "is_open": true
   },
   {
@@ -684,9 +955,13 @@
     "name": "Vashi Rolls",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/vashi-navi-mumbai",
+    "img_path": "/images/mumbai/pizza.png",
     "min_order": 160,
     "rating": 4.2,
-    "categories": ["/rolls-wraps", "/street-food"],
+    "cuisine": [
+      "/rolls-wraps",
+      "/street-food"
+    ],
     "is_open": true
   },
   {
@@ -694,9 +969,13 @@
     "name": "Thane Thali",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/thane-west",
+    "img_path": "/images/mumbai/pizza.png",
     "min_order": 170,
     "rating": 4.0,
-    "categories": ["/indian", "/south-indian"],
+    "cuisine": [
+      "/indian",
+      "/south-indian"
+    ],
     "is_open": true
   },
   {
@@ -704,9 +983,12 @@
     "name": "Delhi Delights",
     "city_path": "/delhi",
     "locality_path": "/delhi/connaught-place",
+    "img_path": "/images/delhi/biriyani-2.png",
     "min_order": 390,
     "rating": 4.7,
-    "categories": ["/indian"],
+    "cuisine": [
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -714,9 +996,13 @@
     "name": "GK Burgers",
     "city_path": "/delhi",
     "locality_path": "/delhi/greater-kailash-1",
+    "img_path": "/images/delhi/curry.png",
     "min_order": 260,
     "rating": 4.3,
-    "categories": ["/fast-food", "/burger"],
+    "cuisine": [
+      "/fast-food",
+      "/burger"
+    ],
     "is_open": true
   },
   {
@@ -724,9 +1010,13 @@
     "name": "Hauz Khas Healthy",
     "city_path": "/delhi",
     "locality_path": "/delhi/hauz-khas",
+    "img_path": "/images/delhi/biriyani.png",
     "min_order": 310,
     "rating": 4.5,
-    "categories": ["/healthy", "/salad"],
+    "cuisine": [
+      "/healthy",
+      "/salad"
+    ],
     "is_open": true
   },
   {
@@ -734,9 +1024,13 @@
     "name": "Dwarka Desserts",
     "city_path": "/delhi",
     "locality_path": "/delhi/dwarka-sector-7",
+    "img_path": "/images/delhi/grill.png",
     "min_order": 120,
     "rating": 3.9,
-    "categories": ["/desserts", "/snacks"],
+    "cuisine": [
+      "/desserts",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -744,9 +1038,13 @@
     "name": "Karol Bagh Kitchen",
     "city_path": "/delhi",
     "locality_path": "/delhi/karol-bagh",
+    "img_path": "/images/delhi/grill.png",
     "min_order": 200,
     "rating": 4.0,
-    "categories": ["/indian", "/chinese"],
+    "cuisine": [
+      "/indian",
+      "/chinese"
+    ],
     "is_open": true
   },
   {
@@ -754,9 +1052,13 @@
     "name": "Saket Snacks",
     "city_path": "/delhi",
     "locality_path": "/delhi/saket",
+    "img_path": "/images/delhi/grill.png",
     "min_order": 140,
     "rating": 4.1,
-    "categories": ["/street-food", "/snacks"],
+    "cuisine": [
+      "/street-food",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -764,9 +1066,13 @@
     "name": "Vasant Vihar Veg",
     "city_path": "/delhi",
     "locality_path": "/delhi/vasant-vihar",
+    "img_path": "/images/delhi/momos.png",
     "min_order": 290,
     "rating": 4.6,
-    "categories": ["/indian", "/healthy"],
+    "cuisine": [
+      "/indian",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -774,9 +1080,13 @@
     "name": "Chandni Chowk Sweets",
     "city_path": "/delhi",
     "locality_path": "/delhi/chandni-chowk",
+    "img_path": "/images/delhi/biriyani-2.png",
     "min_order": 80,
     "rating": 4.9,
-    "categories": ["/desserts", "/indian"],
+    "cuisine": [
+      "/desserts",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -784,9 +1094,12 @@
     "name": "Pitampura Punjabi",
     "city_path": "/delhi",
     "locality_path": "/delhi/pitampura",
+    "img_path": "/images/delhi/pizza.png",
     "min_order": 230,
     "rating": 4.2,
-    "categories": ["/indian"],
+    "cuisine": [
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -794,9 +1107,14 @@
     "name": "Rohini Rolls & Burgers",
     "city_path": "/delhi",
     "locality_path": "/delhi/rohini-sector-11",
+    "img_path": "/images/delhi/curry.png",
     "min_order": 190,
     "rating": 3.8,
-    "categories": ["/rolls-wraps", "/burger", "/fast-food"],
+    "cuisine": [
+      "/rolls-wraps",
+      "/burger",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -804,9 +1122,13 @@
     "name": "Noida Cafe",
     "city_path": "/delhi",
     "locality_path": "/delhi/noida-sector-18",
+    "img_path": "/images/delhi/curry.png",
     "min_order": 220,
     "rating": 4.0,
-    "categories": ["/continental", "/beverages"],
+    "cuisine": [
+      "/continental",
+      "/beverages"
+    ],
     "is_open": true
   },
   {
@@ -814,9 +1136,13 @@
     "name": "Gurugram Gourmet",
     "city_path": "/delhi",
     "locality_path": "/delhi/dlf-cybercity-gurugram",
+    "img_path": "/images/delhi/momos.png",
     "min_order": 400,
     "rating": 4.8,
-    "categories": ["/italian", "/continental"],
+    "cuisine": [
+      "/italian",
+      "/continental"
+    ],
     "is_open": true
   },
   {
@@ -824,9 +1150,13 @@
     "name": "Salt Lake Cafe",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/salt-lake-city-sector-5",
+    "img_path": "/images/kolkata/salad.png",
     "min_order": 180,
     "rating": 4.2,
-    "categories": ["/beverages", "/snacks"],
+    "cuisine": [
+      "/beverages",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -834,9 +1164,13 @@
     "name": "Rajarhat Restaurant",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/rajarhat",
+    "img_path": "/images/kolkata/curry.png",
     "min_order": 250,
     "rating": 4.4,
-    "categories": ["/indian", "/chinese"],
+    "cuisine": [
+      "/indian",
+      "/chinese"
+    ],
     "is_open": true
   },
   {
@@ -844,9 +1178,13 @@
     "name": "Ballygunge Bistro",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/ballygunge",
+    "img_path": "/images/kolkata/curry.png",
     "min_order": 350,
     "rating": 4.7,
-    "categories": ["/continental", "/healthy"],
+    "cuisine": [
+      "/continental",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -854,9 +1192,13 @@
     "name": "Park Street Pizza",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/park-street",
+    "img_path": "/images/kolkata/waffle.png",
     "min_order": 300,
     "rating": 4.5,
-    "categories": ["/italian", "/pizza"],
+    "cuisine": [
+      "/italian",
+      "/pizza"
+    ],
     "is_open": true
   },
   {
@@ -864,9 +1206,13 @@
     "name": "New Town North Indian",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/new-town",
+    "img_path": "/images/kolkata/pizza.png",
     "min_order": 260,
     "rating": 4.0,
-    "categories": ["/indian", "/kebab"],
+    "cuisine": [
+      "/indian",
+      "/kebab"
+    ],
     "is_open": true
   },
   {
@@ -874,9 +1220,13 @@
     "name": "Alipore All Day Dining",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/alipore",
+    "img_path": "/images/kolkata/biriyani.png",
     "min_order": 400,
     "rating": 4.9,
-    "categories": ["/continental", "/indian"],
+    "cuisine": [
+      "/continental",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -884,9 +1234,13 @@
     "name": "Gariahat Global",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/gariahat",
+    "img_path": "/images/kolkata/biriyani-2.png",
     "min_order": 310,
     "rating": 4.6,
-    "categories": ["/fusion", "/chinese"],
+    "cuisine": [
+      "/fusion",
+      "/chinese"
+    ],
     "is_open": true
   },
   {
@@ -894,9 +1248,13 @@
     "name": "Jadavpur Juice Bar",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/jadavpur",
+    "img_path": "/images/kolkata/curry.png",
     "min_order": 70,
     "rating": 3.6,
-    "categories": ["/beverages", "/healthy"],
+    "cuisine": [
+      "/beverages",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -904,9 +1262,13 @@
     "name": "Esplanade Express",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/esplanade",
+    "img_path": "/images/kolkata/chaat.png",
     "min_order": 100,
     "rating": 3.8,
-    "categories": ["/fast-food", "/snacks"],
+    "cuisine": [
+      "/fast-food",
+      "/snacks"
+    ],
     "is_open": true
   },
   {
@@ -914,19 +1276,27 @@
     "name": "Tollygunge Tandoori",
     "city_path": "/kolkata",
     "locality_path": "/kolkata/tollygunge",
+    "img_path": "/images/kolkata/grill.png",
     "min_order": 280,
     "rating": 4.3,
-    "categories": ["/indian", "/kebab"],
+    "cuisine": [
+      "/indian",
+      "/kebab"
+    ],
     "is_open": true
   },
   {
     "id": "r093",
     "name": "Koramangala Kebabs",
     "city_path": "/bengaluru",
-    "locality_path": "/bengaluru/koramangala-5th-block",
+    "locality_path": "/bengaluru/koramangala",
+    "img_path": "/images/bengaluru/biriyani.png",
     "min_order": 280,
     "rating": 4.4,
-    "categories": ["/indian", "/kebab"],
+    "cuisine": [
+      "/indian",
+      "/kebab"
+    ],
     "is_open": true
   },
   {
@@ -934,9 +1304,12 @@
     "name": "Indiranagar Italian",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/indiranagar",
+    "img_path": "/images/bengaluru/biriyani-2.png",
     "min_order": 380,
     "rating": 4.8,
-    "categories": ["/italian"],
+    "cuisine": [
+      "/italian"
+    ],
     "is_open": true
   },
   {
@@ -944,9 +1317,13 @@
     "name": "Whitefield Wraps",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/whitefield",
+    "img_path": "/images/bengaluru/chaat.png",
     "min_order": 190,
     "rating": 3.9,
-    "categories": ["/rolls-wraps", "/fast-food"],
+    "cuisine": [
+      "/rolls-wraps",
+      "/fast-food"
+    ],
     "is_open": true
   },
   {
@@ -954,9 +1331,13 @@
     "name": "Electronic City Eatery",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/electronic-city",
+    "img_path": "/images/bengaluru/chaat.png",
     "min_order": 240,
     "rating": 4.1,
-    "categories": ["/indian", "/chinese"],
+    "cuisine": [
+      "/indian",
+      "/chinese"
+    ],
     "is_open": true
   },
   {
@@ -964,9 +1345,13 @@
     "name": "Jayanagar Japanese",
     "city_path": "/bengaluru",
     "locality_path": "/bengaluru/jayanagar",
+    "img_path": "/images/bengaluru/salad.png",
     "min_order": 500,
     "rating": 4.9,
-    "categories": ["/japanese", "/healthy"],
+    "cuisine": [
+      "/japanese",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -974,9 +1359,13 @@
     "name": "Bandra Brunch Bistro",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/bandra-west",
+    "img_path": "/images/mumbai/biriyani.png",
     "min_order": 330,
     "rating": 4.7,
-    "categories": ["/continental", "/healthy"],
+    "cuisine": [
+      "/continental",
+      "/healthy"
+    ],
     "is_open": true
   },
   {
@@ -984,9 +1373,13 @@
     "name": "Andheri Andhra",
     "city_path": "/mumbai",
     "locality_path": "/mumbai/andheri-east",
+    "img_path": "/images/mumbai/salad.png",
     "min_order": 260,
     "rating": 4.2,
-    "categories": ["/south-indian", "/indian"],
+    "cuisine": [
+      "/south-indian",
+      "/indian"
+    ],
     "is_open": true
   },
   {
@@ -994,9 +1387,13 @@
     "name": "CP Continental Cafe",
     "city_path": "/delhi",
     "locality_path": "/delhi/connaught-place",
+    "img_path": "/images/delhi/momos.png",
     "min_order": 420,
     "rating": 4.6,
-    "categories": ["/continental", "/beverages"],
+    "cuisine": [
+      "/continental",
+      "/beverages"
+    ],
     "is_open": true
   }
 ]

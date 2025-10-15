@@ -24,7 +24,7 @@
       {"name": "HSR Layout", "path": "/bengaluru/hsr-layout", "enabled": true},
       {"name": "Indiranagar", "path": "/bengaluru/indiranagar", "enabled": true},
       {"name": "Jayanagar", "path": "/bengaluru/jayanagar", "enabled": true},
-      {"name": "Koramangala 5th Block", "path": "/bengaluru/koramangala-5th-block", "enabled": true},
+      {"name": "Koramangala", "path": "/bengaluru/koramangala", "enabled": true},
       {"name": "Malleshwaram", "path": "/bengaluru/malleshwaram", "enabled": true},
       {"name": "Marathahalli", "path": "/bengaluru/marathahalli", "enabled": true},
       {"name": "Sarjapur Road", "path": "/bengaluru/sarjapur-road", "enabled": true},
